@@ -1,0 +1,6 @@
+# Weights & Biases
+wandb/
+*.wandb
+
+# Python
+__pycache__/
