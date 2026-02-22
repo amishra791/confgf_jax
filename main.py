@@ -49,7 +49,9 @@ run = wandb.init(
 )
 
 # setup checkpoint dir
-ckpt_dir = ocp.test_utils.erase_and_create_empty('/tmp/qm9_diffusion_checkpoint_prod')
+ckpt_dir_str = "/tmp/qm9_diffusion_checkpoint_prod"
+os.makedirs(ckpt_dir_str, exist_ok=True)
+ckpt_dir = Path(ckpt_dir_str)
 ckptr = ocp.AsyncCheckpointer(ocp.StandardCheckpointHandler())
 
 train_data = load_molecules_split(Path(args.load_dir) / 'train')

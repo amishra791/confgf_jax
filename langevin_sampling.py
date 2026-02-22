@@ -66,5 +66,3 @@ def langevin_sampling(model, mol, sigmas, rngs, N_max):
             
 
     return cur_pos_v3
-
-

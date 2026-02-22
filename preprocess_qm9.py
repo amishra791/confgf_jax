@@ -151,7 +151,7 @@ def preprocess_GEOM_dataset(base_path, pickle_paths, conf_per_mol=5):
 
 if __name__ == "__main__":
     # default base_dir: /home/aditya_mishra791/rdkit_folder
-    # default save_dir: /home/aditya_mishra791/conformation_diffusion/preprocessed_data
+    # default save_dir: /home/aditya_mishra791/confgf_jax/preprocessed_data
     parser = argparse.ArgumentParser(description="Program to preprocess GEOM-QM9")
     parser.add_argument("base_dir", type=str, help="path to rdkit_folder")
     parser.add_argument("save_dir", type=str, help="where to save preprocessed data")
