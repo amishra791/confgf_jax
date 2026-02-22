@@ -4,3 +4,6 @@ wandb/
 
 # Python
 __pycache__/
+
+# Data 
+preprocessed_data/
