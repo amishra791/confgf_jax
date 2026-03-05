@@ -27,4 +27,8 @@ To train the model:
 
 To generate conformers, see the notebook: CorrectedConformationViz
 
+Here is an example sample: 
+
+<img width="288" height="264" alt="image" src="https://github.com/user-attachments/assets/9c4368a6-bcbb-48c4-9a3c-8a023f5f6a82" />
+
 
